@@ -3,6 +3,8 @@ Creatures
 
 repository for the Creatures agent-based model
 
+This is an agent-based simulation written in the Processing language.
+
 When you run the program, you will see a pond with little creatures swimming around in it.  The red ones are females and the blue ones are males.  The black squares are food, which the creatures eat when they run into them.  They gain energy by eating food.  If a male and female meet, they can mate and produce offspring.  The offspring inherit some combination of the mother's and father's intelligence (their ability to search for food), so over time there should be some evolution in the aggregate intelligence of the population.  The creatures expend energy by searching for food and mating, and pass some of their energy on to their offspring (the creatures' length shows how much energy they have).  
 
 The characteristics of the initial population of creatures is fixed by the program, but subsequent behavior is subject to several randomizing parameters.  This means that the outcome of the simulation will be different every time you run the program.  (If you want to cheat, you can add new creatures by left-clicking your mouse over the pond; new creatures will appear at the location of the mouse pointer.) 
